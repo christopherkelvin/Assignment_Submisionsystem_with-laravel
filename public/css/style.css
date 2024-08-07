@@ -1,0 +1,38 @@
+form {
+    background-color: #f0f4f8;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: auto;
+    border: 1px solid rgb(227, 212, 212);
+    border-radius: 10px;
+    min-height: 400px;
+    box-shadow: 3px 3px 5px 4px rgb(241, 235, 235);
+}
+form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 120px;
+}
+
+input {
+    margin-left: 120px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid rgb(227, 212, 212);
+    border-radius: 5px;
+}
+.hide{
+    display: none;
+}

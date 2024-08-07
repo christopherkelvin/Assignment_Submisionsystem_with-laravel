@@ -1,0 +1,115 @@
+* {
+    --margin: 150px;
+    --width: 800px;
+}
+.course {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.assignments {
+    min-height: 400px;
+    width: 1200px;
+    background-color: rgb(226, 219, 219);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.assignments h2 {
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.div {
+    position: relative;
+}
+.topdiv {
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 40px;
+    width: var(--width);
+    margin-left: var(--margin);
+    background-color: white;
+    border: solid black 2px;
+}
+.topdiv p {
+    float: left;
+    position: relative;
+    margin-top: 7px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+.topdiv svg {
+    float: right;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+.bottomdiv {
+    position: absolute;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-height: 100px;
+    margin-top: 43px;
+    margin-left: var(--margin);
+    width: var(--width);
+    background-color: white;
+    border: solid black 2px;
+    border-top: 0px;
+}
+.bottomdiv p {
+    font-size: 18px;
+    padding-left: 3px;
+}
+@media screen and (max-width: 1130px) {
+    * {
+        --margin: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    * {
+        --width: 700px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    * {
+        --width: 600px;
+    }
+}
+.sub {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--back);
+    border: none;
+    border-radius: 5px;
+}
+.upload {
+    display: fixed;
+    margin-top: -40px;
+    margin-right: 20px;
+    padding: 10px;
+    float: right;
+    background-color: var(--back);
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.upload:hover {
+    background-color: rgb(38, 48, 49);
+    color: azure;
+}
+.bottomdiv a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.bottomdiv a:hover {
+    background-color: rgb(38, 48, 49);
+    color: azure;
+}

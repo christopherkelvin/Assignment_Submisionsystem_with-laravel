@@ -1,0 +1,117 @@
+.table {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 1000px;
+}
+table {
+    border: 2px solid gray;
+    /* border-bottom: none; */
+}
+.table th {
+    background-color: lightgray;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.table tr td {
+    background-color: rgb(234, 233, 233);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+/* td{
+    display: flex;
+    flex-direction: row;
+} */
+td button {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 8px; /* Adjust the gap between icon and text */
+    padding: 10px 10px; /* Adjust padding as needed */
+    background-color: lightblue; /* Example background color */
+    color: var(--back); /* Example text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+td a {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 8px; /* Adjust the gap between icon and text */
+    padding: 10px 10px; /* Adjust padding as needed */
+    background-color: lightblue; /* Example background color */
+    color: var(--back); /* Example text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+td button:hover {
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+td a:hover {
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+td button:hover .svg {
+    fill: bisque;
+}
+td a:hover .svg {
+    fill: bisque;
+}
+.action {
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    gap: 8px;
+}
+.svg {
+    height: 20px;
+}
+.back svg {
+    height: 30px;
+}
+
+.back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 10px;
+    background-color: lightblue;
+    color: var(--back); /* Example text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+}
+.backd {
+    margin: 60px 70px;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.view {
+    background-color: whitesmoke;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+
+    /* text-align: center; */
+}
+.view h2{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+

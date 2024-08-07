@@ -1,0 +1,172 @@
+* {
+  --color: #e0e0e0;
+  --back: #2d3748;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  background-color: var(--back);
+  height: 50px;
+  justify-content: center;
+}
+.links {
+  display: flex;
+  gap: 40px;
+}
+.links a {
+  padding: 10px;
+  margin-top: 5px;
+  color: var(--color);
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.links a:hover {
+  color: white;
+  background-color: black;
+}
+.links img {
+  width: 40px;
+  height: 40px;
+}
+.img {
+  position: fixed;
+  top: 5px;
+  right: 60px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40;
+  cursor: pointer;
+}
+.img:hover {
+  top: 3px;
+  right: 57px;
+  border: 2px solid white;
+}
+/* svg {
+  position: fixed;
+  top: 5px;
+  right: 120px;
+  height: 40px;
+}
+svg:hover {
+  color: white;
+  cursor: pointer;
+} */
+.shadow {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.auto{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.c {
+    display: flex;
+    flex-wrap: wrap;
+}
+.c a{
+    color: black;
+}
+.courses {
+    display: inline-block;
+    background-color: rgb(226, 219, 219);
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+.courses h1{
+  font-size: 40px;
+  margin-top: 26px;
+}
+.addCourseBtn{
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+    color: var(--color);
+    background-color: var(--back);
+    padding: 12px;
+    border-radius: 10px;
+}
+.addCourseBtn:hover{
+    color: white;
+    background-color: black;
+
+}
+@media (max-width: 800px) {
+  svg{
+    display: none;
+  }
+  .nav{
+    height: 400px;
+    display: flex;
+    flex-direction: column ;
+  }
+  .img{
+    width: 40px;
+    /* position: static; */
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .logo{
+    margin-top: 0px;
+  }
+  .links a{
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  }
+}
+.butto{
+    /* position: absolute; */
+    color: var(--color);
+    background-color: var(--back);
+    /* bottom: 0; */
+    padding: 12px;
+    float: right;
+    /* width: 50px; */
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.butto:hover{
+  color: white;
+  background-color: black;
+}
+.message{
+  position: fixed;
+  right: 50%;
+  background-color: var(--color);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: var(--back);
+}
+
+
+
+
+
+

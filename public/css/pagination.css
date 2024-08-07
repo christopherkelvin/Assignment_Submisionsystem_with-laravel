@@ -1,0 +1,75 @@
+.pagination-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e2e8f0;
+            background-color: #ffffff;
+            padding: 12px 24px;
+            margin-top: 50px;
+        }
+        .pagination-container .mobile-pagination {
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+        }
+        .pagination-container .mobile-pagination a {
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid #d1d5db;
+            background-color: #ffffff;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #374151;
+            text-decoration: none;
+        }
+        .pagination-container .mobile-pagination a:hover {
+            background-color: #f9fafb;
+        }
+        .pagination-container .desktop-pagination {
+            display: none;
+            flex: 1;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .pagination-container .desktop-pagination .results {
+            font-size: 14px;
+            color: #374151;
+        }
+        .pagination-container .desktop-pagination .results .font-medium {
+            font-weight: 500;
+        }
+        .pagination-container .desktop-pagination nav {
+            display: inline-flex;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+        .pagination-container .desktop-pagination nav a,
+        .pagination-container .desktop-pagination nav span {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #374151;
+            text-decoration: none;
+            border: 1px solid #d1d5db;
+        }
+        .pagination-container .desktop-pagination nav a:hover {
+            background-color: #f9fafb;
+        }
+        .pagination-container .desktop-pagination nav a.current {
+            background-color: #4f46e5;
+            color: #ffffff;
+        }
+        .pagination-container .desktop-pagination nav a svg {
+            height: 20px;
+            width: 20px;
+        }
+        @media (min-width: 640px) {
+            .pagination-container .mobile-pagination {
+                display: none;
+            }
+            .pagination-container .desktop-pagination {
+                display: flex;
+            }
+        }
